@@ -35,6 +35,7 @@
 {
     // Update the user interface for the detail item.
 
+    //called at view did load.
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem description];
     }
