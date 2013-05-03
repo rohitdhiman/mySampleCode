@@ -35,7 +35,7 @@
     
 }
 
-//Gesture Selector Method
+//Gesture Selector Method for Single Tap
 -(void)singleTapGestureReconginzer:(UITapGestureRecognizer *)gesture
 {
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@""
@@ -46,6 +46,7 @@
     [alertView show];
 }
 
+//For double Tap Gesture
 -(void)doubleTapGestureRecognizer:(UITapGestureRecognizer *)gesture
 {
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@""
