@@ -18,6 +18,7 @@
 		4691C15317336E1C00C1DE60 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4691C15217336E1C00C1DE60 /* Default-568h@2x.png */; };
 		4691C15617336E1C00C1DE60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4691C15517336E1C00C1DE60 /* ViewController.m */; };
 		4691C15917336E1C00C1DE60 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4691C15717336E1C00C1DE60 /* ViewController.xib */; };
+		4691C16C1733B83D00C1DE60 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4691C16B1733B83D00C1DE60 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		4691C15417336E1C00C1DE60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4691C15517336E1C00C1DE60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4691C15817336E1C00C1DE60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4691C16B1733B83D00C1DE60 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4691C16C1733B83D00C1DE60 /* MobileCoreServices.framework in Frameworks */,
 				4691C13D17336E1C00C1DE60 /* UIKit.framework in Frameworks */,
 				4691C13F17336E1C00C1DE60 /* Foundation.framework in Frameworks */,
 				4691C14117336E1C00C1DE60 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +76,7 @@
 		4691C13B17336E1C00C1DE60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4691C16B1733B83D00C1DE60 /* MobileCoreServices.framework */,
 				4691C13C17336E1C00C1DE60 /* UIKit.framework */,
 				4691C13E17336E1C00C1DE60 /* Foundation.framework */,
 				4691C14017336E1C00C1DE60 /* CoreGraphics.framework */,
@@ -291,6 +295,7 @@
 				4691C15E17336E1C00C1DE60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

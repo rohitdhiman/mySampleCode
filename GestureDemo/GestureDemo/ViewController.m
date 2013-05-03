@@ -7,12 +7,14 @@
 //
 
 #import "ViewController.h"
+#import <MobileCoreServices/MobileCoreServices.h>
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+@synthesize popoverButton = _popoverButton;
 
 - (void)viewDidLoad
 {
@@ -55,6 +57,20 @@
                                               cancelButtonTitle:@"OK"
                                               otherButtonTitles:nil, nil];
     [alertView show];
+}
+
+-(IBAction)popoverButtonTapped:(id)sender
+{
+//    UIImagePickerController *controller = [[UIImagePickerController alloc] init];
+//    [controller setMediaTypes:[NSArray arrayWithObject:kUTTypeImage]];
+//    //[controller setDelegate:self];
+//    
+//    UIPopoverController *popover = [[UIPopoverController alloc] initWithContentViewController:controller];
+//    [popover setDelegate:self];
+//    [popover presentPopoverFromBarButtonItem:sender
+//                    permittedArrowDirections:UIPopoverArrowDirectionUp
+//                                    animated:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning
