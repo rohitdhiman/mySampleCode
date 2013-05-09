@@ -33,6 +33,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     _mapView.delegate= self;
+    //for displaying intial position
     [self displayRegion];
     
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self
